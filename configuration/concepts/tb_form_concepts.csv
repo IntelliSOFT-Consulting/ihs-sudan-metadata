@@ -4,6 +4,7 @@ ef10c953-8ff5-4455-ad9e-d7270e255357,,"TB Screening, Person Age",Person Age,"TB 
 f405d8ec-14d0-485a-b52d-bffdfeb26581,,"TB Screening , Fever",Fever,"TB Screening , Fever",,,,Question,Boolean,
 78f5bc62-ecbe-457f-87dd-def20dbee82e,,"TB Screening ,Weight loss",Weight loss,"TB Screening ,Weight loss",,,,Question,Boolean,
 9e0bf1ca-dbbe-4024-9d1c-174f4ab1e80d,,"TB Screening , Night Sweats",Night Sweats,"TB Screening , Night Sweats",,,,Question,Boolean,
+b9f9be93-ae6e-433a-93d0-1f0900635a87,,"TB Screening, Poor Weight Gain",Poor Weight Gain,"TB Screening, Poor Weight Gain",,,,Question,Boolean,
 51b82f82-0c27-46e3-9f33-6d65cc1f6eed,,Close Contact History with TB patients,Close Contact History with TB patients,Close Contact History with TB patients,,,,Question,Boolean,
 8993337f-4a6b-4f01-b3a0-780bc6d85c63,,TB Screening information,TB Screening information,TB Screening information,,,,Misc,N/A,
 c50addfe-baf4-4ed0-b470-d6d4678b4359,,"Gene , Has it Been Done?",Has it Been Done?,"Gene , Has it Been Done?",,,,Question,Boolean,
