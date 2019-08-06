@@ -1,3 +1,4 @@
+
 openmrs.root.url: https://localhost/openmrs/ws/rest/v1
 bahmni.login.url: https://localhost/bahmni/home
 reports.url: https://localhost/bahmni/reports/#/dashboard/reports
@@ -12,3 +13,4 @@ log4j.config.file: log4j.properties
 server.port: 8000
 server.context-path: /dhis-integration/
 submission.audit.folder: /opt/openmrs/dhis-integration-data
+
