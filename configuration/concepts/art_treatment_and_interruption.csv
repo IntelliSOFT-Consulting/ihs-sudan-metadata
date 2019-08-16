@@ -8,14 +8,14 @@ bfb1f736-7e74-4adf-96ac-02c38093827b,,Regimen Switched To (Adult First Line),Fir
 9062c6d9-a650-44d2-8929-da84f617c427,,1a = AZT/3TC+EFV,1a = AZT/3TC+EFV,1a = AZT/3TC+EFV,,,,Misc,N/A,
 c22e6700-a937-4909-b4ad-e82ff51325ac,,1b = AZT/3TC/NVP,1b = AZT/3TC/NVP,1b = AZT/3TC/NVP,,,,Misc,N/A,
 a00d9620-e88b-4c2f-9293-b1ac9e5943f2,,1c = TDF/3TC/DTG,1c = TDF/3TC/DTG,1c = TDF/3TC/DTG,,,,Misc,N/A,
-ba37b7be-2a5e-42ef-90f6-f4cd4723947e,,1d = ABC/3TC (600/300) /DTG,1d = ABC/3TC (600/300) /DTG,1d = ABC/3TC (600/300) /DTG,,,,Misc,N/A,
+5d500ca2-350a-49ee-a3d4-f340db32ff31,,1d=ABC/3TC (600/300)/DTG,1d = ABC/3TC (600/300) /DTG,1d = ABC/3TC (600/300) /DTG,,,,Misc,N/A,
 3fd242a8-7ade-463c-8919-d82573ea8526,,1e = AZT/3TC +DTG,1e = AZT/3TC +DTG,1e = AZT/3TC +DTG,,,,Misc,N/A,
 91f5d0d6-eb81-484f-9376-4bfb926a5a81, ,1f = TDF/3TC+EFV,1f = TDF/3TC+EFV,1f = TDF/3TC+EFV,,,,Misc,N/A,
 0dd3e78f-e1fc-47de-95bc-1f489d0dfcc5,,1g = TDF/3TC+NVP,1g = TDF/3TC+NVP,1g = TDF/3TC+NVP,,,,Misc,N/A,
 4a86fbee-07a9-422a-bf69-16256c0c2b8b,,1h = TDF/FTC/EFV,1h = TDF/FTC/EFV,1h = TDF/FTC/EFV,,,,Misc,N/A,
 03224cae-f115-4814-bd53-c99c72288446,,1J = TDF/FTC+NVP,1J = TDF/FTC+NVP,1J = TDF/FTC+NVP,,,,Misc,N/A,
-42cd702e-33b2-45e8-968e-f3918ac5c86b,,Substitution Regimen (1st  Line Adults),Substitution Regimen(1st Line Adults),Substitution Regimen,,,,Question,Coded,1a = AZT/3TC+EFV ; 1b = AZT/3TC/NVP ; 1c = TDF/3TC/DTG;1d = ABC/3TC (600/300) /DTG ; 1e = AZT/3TC +DTG ; 1f = TDF/3TC+EFV ; 1g = TDF/3TC+NVP ; 1h = TDF/FTC/EFV ; 1J = TDF/FTC+NVP
- d1f02073-460c-4cd4-89b0-c16766e06334,,Initial ART Regimen (Adult) ,Initial ART Regimen,Initial ART Regimen (Adult),,,,Question,Coded,1a = AZT/3TC+EFV ; 1b = AZT/3TC/NVP ; 1c = TDF/3TC/DTG;1d = ABC/3TC (600/300) /DTG ; 1e = AZT/3TC +DTG ; 1f = TDF/3TC+EFV ; 1g = TDF/3TC+NVP ; 1h = TDF/FTC/EFV ; 1J = TDF/FTC+NVP
+42cd702e-33b2-45e8-968e-f3918ac5c86b,,Substitution Regimen (1st  Line Adults),Substitution Regimen(1st Line Adults),Substitution Regimen,,,,Question,Coded,1a = AZT/3TC+EFV ; 1b = AZT/3TC/NVP ; 1c = TDF/3TC/DTG;1d=ABC/3TC (600/300)/DTG ; 1e = AZT/3TC +DTG ; 1f = TDF/3TC+EFV ; 1g = TDF/3TC+NVP ; 1h = TDF/FTC/EFV ; 1J = TDF/FTC+NVP
+ d1f02073-460c-4cd4-89b0-c16766e06334,,Initial ART Regimen (Adult) ,Initial ART Regimen,Initial ART Regimen (Adult),,,,Question,Coded,1a = AZT/3TC+EFV ; 1b = AZT/3TC/NVP ; 1c = TDF/3TC/DTG;1d=ABC/3TC (600/300)/DTG; 1e = AZT/3TC +DTG ; 1f = TDF/3TC+EFV ; 1g = TDF/3TC+NVP ; 1h = TDF/FTC/EFV ; 1J = TDF/FTC+NVP
 b4d8805f-40ff-4c9d-9118-feeab45ad8be,,Other Reason For Regimen Change(First Line),Other Reason (Specify),Other Reason (Specify),,,,Misc,N/A,
 e1a04b37-f80b-4e27-968c-02e2566c7d82,,Other Reason For Regimen Change(Second Line),Other Reason (Specify),Other Reason (Specify),,,,Misc,N/A,
 f0941906-3277-4ca0-891a-a58efb541c66,,Reason For Regimen Change(First Line),Reason,Reason For Regimen Change,,,,Question,Coded, Toxic Side Effect ; Pregnancy ; Risk of pregnancy ; Newly diagnosed TB ; New drug available ; Drug stockout ; Other Reason (Specify)
