@@ -1,0 +1,597 @@
+{
+    "name": "HIV Care And ART Card",
+    "pages": [
+        {
+            "label": "Client Identification Data",
+            "sections": [
+                {
+                    "label": "Client Data",
+                    "isExpanded": "true",
+                    "questions": [
+                        {
+                            "label": "Client's telephone phone",
+                            "type": "personAttribute",
+                            "required": true,
+                            "id": "clientAlternativeTelephone",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "attributeType": "bc851ec1-9fb7-49da-acd7-1a61168002fe",
+                                "isSimpleValue": true
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Client's alternative telephone",
+                            "type": "personAttribute",
+                            "required": true,
+                            "id": "clientAlternativeTelephone",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "attributeType": "c98d1ea8-ec7e-442d-86bc-4ed69441d98b",
+                                "isSimpleValue": true
+                            },
+                            "validators": []
+                        }
+                    ]
+                },
+                {
+                    "label": "Treatment supporter information",
+                    "isExpanded": "true",
+                    "questions": [
+                        {
+                            "label": "Treatment supporter's name",
+                            "type": "personAttribute",
+                            "required": true,
+                            "id": "treatmentSupportName",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "attributeType": "80fcb21b-f0af-493e-bcd2-75d587fcbbe9",
+                                "isSimpleValue": true
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Treatement supporter's address",
+                            "type": "personAttribute",
+                            "required": true,
+                            "id": "treatmentSupportAddress",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "attributeType": "0aa1708e-64a4-4edf-b02e-bc75bc4cd970",
+                                "isSimpleValue": true
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Treatment supporter's telephone",
+                            "type": "personAttribute",
+                            "required": true,
+                            "id": "treatmentSupportersTelephone",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "attributeType": "21884b9f-2300-411b-adc0-af80954c4c69",
+                                "isSimpleValue": true
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Home based care provider",
+                            "type": "personAttribute",
+                            "required": true,
+                            "id": "homeBasedCareProvider",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "attributeType": "ec95bdcd-8bb5-4b29-95bc-4fe600df3f07",
+                                "isSimpleValue": true
+                            },
+                            "validators": []
+                        }
+                    ]
+                },
+                {
+                    "label": "HIV Test Information",
+                    "isExpanded": "true",
+                    "questions": [
+                        {
+                            "label": "Date first tested positive (+)",
+                            "type": "obs",
+                            "required": true,
+                            "id": "dateFirstTestedPositive",
+                            "questionOptions": {
+                                "rendering": "date",
+                                "concept": "7482b976-56fe-44b0-b30f-1e957cc0cbb0",
+                                "conceptMappings": [],
+                                "answers": []
+                            },
+                            "validators": [
+                                {
+                                    "type": "date",
+                                    "allowFutureDates": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Place first tested positive",
+                            "type": "obs",
+                            "required": true,
+                            "id": "placeFirstTestedPositive",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "concept": "2e528392-b1dc-4bcc-bf7a-cc8250082174",
+                                "conceptMappings": [],
+                                "answers": []
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Entry Point",
+                            "type": "obs",
+                            "required": true,
+                            "id": "entryPointTestedPositive",
+                            "questionOptions": {
+                                "rendering": "select",
+                                "concept": "f1a35737-434c-46e9-8c46-4e17b98e305d",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "concept": "17f90888-9c88-4db2-8750-edb1d760a9ca",
+                                        "label": "ANC Clinic"
+                                    },
+                                    {
+                                        "concept": "cb976d23-ab3e-4369-a88f-73f56505783b",
+                                        "label": "CBTC"
+                                    },
+                                    {
+                                        "concept": "8244fd10-f813-4e52-a13e-9e3df7cd599c",
+                                        "label": "Entry Point - OPD"
+                                    },
+                                    {
+                                        "concept": "62cceeab-adf9-4f3b-bdb3-89687557ecab",
+                                        "label": "In Patient"
+                                    },
+                                    {
+                                        "concept": "8fc10249-842b-4944-8018-c758bd0263d8",
+                                        "label": "Index Testing"
+                                    },
+                                    {
+                                        "concept": "26560ed4-3ccc-4f85-85f1-f2c9f9238d3b",
+                                        "label": "Pediatric Clinic"
+                                    },
+                                    {
+                                        "concept": "0464a6fd-d3c5-427b-b147-3f156ac86d63",
+                                        "label": "Other Entry Point (Specify)"
+                                    },
+                                    {
+                                        "concept": "dfa49cd5-3859-4184-84cc-ada016092680",
+                                        "label": "STI Clinic"
+                                    },
+                                    {
+                                        "concept": "04c64451-9e19-43e9-ac3d-9333824bc1dd",
+                                        "label": "TB Clinic"
+                                    },
+                                    {
+                                        "concept": "ec5d13de-ee22-4d8a-b39c-bdee6cd3d88c",
+                                        "label": "VCT Clinic"
+                                    }
+                                ]
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Other place of entry",
+                            "type": "obs",
+                            "required": true,
+                            "id": "otherPlaceOfEntry",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "concept": "c84d3697-4097-46cf-9a90-bc970aba241e",
+                                "conceptMappings": [],
+                                "answers": []
+                            },
+                            "hide": {
+                                "hideWhenExpression": "entryPointTestedPositive !== '0464a6fd-d3c5-427b-b147-3f156ac86d63'"
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Date of HIV Retesting Before ART",
+                            "type": "obs",
+                            "required": false,
+                            "id": "dateOfHIVRetestingBeforeART",
+                            "questionOptions": {
+                                "rendering": "date",
+                                "concept": "fee1095f-a0a7-4694-a352-4e88d6ce6c7c",
+                                "conceptMappings": [],
+                                "answers": []
+                            },
+                            "validators": [
+                                {
+                                    "type": "date",
+                                    "allowFutureDates": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Place of HIV Retesting Before ART",
+                            "type": "obs",
+                            "required": false,
+                            "id": "placeOfHIVRetestingBeforeART",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "concept": "13d6e54e-c8bb-41b2-902b-6ad193f77f40",
+                                "conceptMappings": [],
+                                "answers": []
+                            },
+                            "validators": []
+                        }
+                    ]
+                },
+                {
+                    "label": "Transfer Information",
+                    "isExpanded": "true",
+                    "questions": [
+                        {
+                            "label": "Transferred in on ART from another treatment site in the national programme",
+                            "type": "control",
+                            "required": false,
+                            "id": "transferInOnARTFromAnotherTreatmentSite",
+                            "questionOptions": {
+                                "rendering": "select",
+                                "concept": "735cd395-0ef1-4832-a58c-e8afb567d3b3",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "label": "Yes",
+                                        "concept": "Yes"
+                                    },
+                                    {
+                                        "label": "No",
+                                        "concept": "No"
+                                    }
+                                ]
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Name of previous clinic",
+                            "type": "obs",
+                            "required": true,
+                            "id": "nameOfPreviousClinic",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "concept": "14026b25-6642-4002-a5ed-2049fb82afb2",
+                                "conceptMappings": [],
+                                "answers": []
+                            },
+                            "hide": {
+                                "hideWhenExpression": "transferInOnARTFromAnotherTreatmentSite !== 'Yes'"
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Date transferred in",
+                            "type": "obs",
+                            "required": true,
+                            "id": "dateTransferredIn",
+                            "questionOptions": {
+                                "rendering": "date",
+                                "concept": "2509d668-caa1-4223-8f70-b0b61eb5b39e",
+                                "conceptMappings": [],
+                                "answers": []
+                            },
+                            "hide": {
+                                "hideWhenExpression": "transferInOnARTFromAnotherTreatmentSite !== 'Yes'"
+                            },
+                            "validators": [
+                                {
+                                    "type": "date",
+                                    "allowFutureDates": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Personal History",
+            "sections": [
+                {
+                    "label": "Personal history",
+                    "isExpanded": "true",
+                    "questions": [
+                        {
+                            "label": "Literate",
+                            "type": "obs",
+                            "required": true,
+                            "id": "isPersonLiterate",
+                            "questionOptions": {
+                                "rendering": "radio",
+                                "concept": "159400AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "label": "Yes",
+                                        "concept": "78763e68-104e-465d-8ce3-35f9edfb083d"
+                                    },
+                                    {
+                                        "label": "No",
+                                        "concept": "b497171e-0410-4d8d-bbd4-7e1a8f8b504e"
+                                    }
+                                ]
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Alcohol intake",
+                            "type": "obs",
+                            "required": true,
+                            "id": "alcoholIntake",
+                            "questionOptions": {
+                                "rendering": "select",
+                                "concept": "f77b636b-21e7-4568-9719-bbdd67c3c736",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "concept": "ec6c8192-0fa3-4d43-aecc-0ec700b8acfa",
+                                        "label": "Alcohol Intake - Habitual"
+                                    },
+                                    {
+                                        "concept": "d228c63f-212d-4214-a68f-6880297a29a0",
+                                        "label": "Alcohol Intake - Not Use"
+                                    },
+                                    {
+                                        "concept": "ec9aef4b-2cd1-40d6-83d8-d331e682ca9e",
+                                        "label": "Alcohol Intake - Social"
+                                    }
+                                ]
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Drug allergies",
+                            "type": "obs",
+                            "required": true,
+                            "id": "drugAllergies",
+                            "questionOptions": {
+                                "rendering": "select",
+                                "concept": "0ca3ffa7-0d29-4043-8b78-3dd40f5806d1",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "label": "Yes",
+                                        "concept": "true"
+                                    },
+                                    {
+                                        "label": "No",
+                                        "concept": "false"
+                                    }
+                                ]
+                            },
+                            "validators": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Familiy History",
+            "sections": [
+                {
+                    "label": "Family History",
+                    "isExpanded": "true",
+                    "questions": [
+                        {
+                            "label": "Marital status",
+                            "type": "obs",
+                            "required": true,
+                            "id": "maritialStatus",
+                            "questionOptions": {
+                                "rendering": "select",
+                                "concept": "fdcd966e-0870-4d5d-a506-121efc0c39fb",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "label": "Single",
+                                        "concept": "c0009f16-4675-4474-bd56-ff6766eda682"
+                                    },
+                                    {
+                                        "label": "Married, monogamous",
+                                        "concept": "2a328f83-cbe4-457e-b0f3-5063aff3d6bf"
+                                    },
+                                    {
+                                        "label": "Married, polygamous",
+                                        "concept": "f6025192-1116-4184-b281-bd7fbd975881"
+                                    },
+                                    {
+                                        "label": "Divorced/separated",
+                                        "concept": "3b451011-f8e9-4d9e-8dc7-432e8cc69243"
+                                    },
+                                    {
+                                        "label": "Windowed",
+                                        "concept": "fcf34be1-20fd-41b0-8562-8e123ed40145"
+                                    },
+                                    {
+                                        "label": "Not applicable",
+                                        "concept": "608f6df4-bc19-4afa-a1ff-58f407389221"
+                                    }
+                                ]
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Occupation",
+                            "type": "obs",
+                            "required": true,
+                            "id": "occupation",
+                            "questionOptions": {
+                                "rendering": "select",
+                                "concept": "c221869a-3f10-11e4-adec-0800271c1b75",
+                                "conceptMappings": [],
+                                "answers": [
+                                    {
+                                        "concept": "c2222941-3f10-11e4-adec-0800271c1b75",
+                                        "label": "Occupation - Unemployed"
+                                    },
+                                    {
+                                        "concept": "0819d4ce-4da6-4b89-9c6c-e2878b842f85",
+                                        "label": "Occupation - Student"
+                                    },
+                                    {
+                                        "concept": "d56c17b5-501a-4d2d-b1bb-2cb80e4da056",
+                                        "label": "Occupation - Housewife"
+                                    },
+                                    {
+                                        "concept": "f3518564-c580-4663-acce-021369fea26f",
+                                        "label": "Salaried Employee"
+                                    },
+                                    {
+                                        "concept": "3be283c2-a773-419f-98e0-9b912d26f5f9",
+                                        "label": "Occupation - Military Personnel"
+                                    },
+                                    {
+                                        "concept": "3d124657-7776-4f0d-9e96-49f14b20d7f4",
+                                        "label": "Occupation - Other uniformed forces"
+                                    },
+                                    {
+                                        "concept": "94d8dc78-0e00-4525-81bc-31db6961bc5e",
+                                        "label": "Occupation - Business/trader"
+                                    },
+                                    {
+                                        "concept": "0c493079-9882-47e5-9a10-361405560678",
+                                        "label": "Occupation - Farmer"
+                                    },
+                                    {
+                                        "concept": "f6ae430a-a197-426e-b54f-08f45fae0ad0",
+                                        "label": "Occupation - Other (Specify)"
+                                    }
+                                ]
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "Other Answer",
+                            "type": "obs",
+                            "required": true,
+                            "id": "otherSpecifyOccupation",
+                            "questionOptions": {
+                                "rendering": "text",
+                                "concept": "9e9df8b6-3bad-454e-a2fc-04842d02d62a",
+                                "conceptMappings": [],
+                                "answers": []
+                            },
+                            "hide": {
+                                "hideWhenExpression": "occupation !== 'f6ae430a-a197-426e-b54f-08f45fae0ad0'"
+                            },
+                            "validators": []
+                        },
+                        {
+                            "label": "General Family Info",
+                            "type": "obsGroup",
+                            "required": true,
+                            "id": "generalFamilyInfo",
+                            "questionOptions": {
+                                "rendering": "repeating",
+                                "concept": "63ec7ffb-8a42-42ec-9aaa-4758955205b2"
+                            },
+                            "questions": [
+                                {
+                                    "label": "Family members names; partner/children, & Unique No if in care",
+                                    "id": "familyMembersNames",
+                                    "required": true,
+                                    "questionOptions": {
+                                        "answers": [],
+                                        "concept": "1074cef5-e4f9-470d-aaea-a4d8d7436c49",
+                                        "rendering": "text"
+                                    },
+                                    "type": "obs",
+                                    "validators": []
+                                },
+                                {
+                                    "label": "Family member Age",
+                                    "id": "familyMemberAge",
+                                    "required": true,
+                                    "questionOptions": {
+                                        "answers": [],
+                                        "concept": "db25b3c5-10da-49a9-9137-cc8a2507585a",
+                                        "rendering": "number"
+                                    },
+                                    "type": "obs",
+                                    "validators": []
+                                },
+                                {
+                                    "label": "Family member Sex",
+                                    "id": "familyMemberSex",
+                                    "required": true,
+                                    "questionOptions": {
+                                        "answers": [
+                                            {
+                                                "label": "Male",
+                                                "concept": "544634f2-4c08-48b0-9b2b-35251189a59b"
+                                            },
+                                            {
+                                                "label": "Female",
+                                                "concept": "e74aebd1-51b5-424f-b9f0-339fd8cd3588"
+                                            }
+                                        ],
+                                        "concept": "d969948d-6671-4149-a234-7b991c70e1c1",
+                                        "rendering": "select"
+                                    },
+                                    "type": "obs",
+                                    "validators": []
+                                },
+                                {
+                                    "label": "HIV Status",
+                                    "id": "familyMemberHIVStatus",
+                                    "required": true,
+                                    "questionOptions": {
+                                        "answers": [
+                                            {
+                                                "label": "Known",
+                                                "concept": "a395dc8c-2129-4ac4-b5c3-b8c57f4f08b5"
+                                            },
+                                            {
+                                                "label": "Do not know",
+                                                "concept": "a5bcac8d-305a-4b46-9121-014d72ac4c2d"
+                                            }
+                                        ],
+                                        "concept": "160f21c0-9a96-4ffd-a72c-aabed02b6a53",
+                                        "rendering": "select"
+                                    },
+                                    "type": "obs",
+                                    "validators": []
+                                },
+                                {
+                                    "label": "On ART",
+                                    "id": "familyMemberOnART",
+                                    "required": true,
+                                    "questionOptions": {
+                                        "concept": "48741238-7ad4-42f0-a1f4-d2bb6b355614",
+                                        "rendering": "select",
+                                        "answers": [
+                                            {
+                                                "label": "Yes",
+                                                "concept": "true"
+                                            },
+                                            {
+                                                "label": "No",
+                                                "concept": "false"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "validators": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "processor": "EncounterFormProcessor",
+    "encounterType": "81852aee-3f10-11e4-adec-0800271c1b75",
+    "referencedForms": [],
+    "uuid": "",
+    "description": "A form to capture HIV Care and ART card information",
+    "version": "1.0.0"
+}
