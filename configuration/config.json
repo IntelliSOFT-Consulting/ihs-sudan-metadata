@@ -1,0 +1,30 @@
+{
+    "@openmrs/esm-patient-test-results-app": {
+        "concepts": [
+            {
+                "defaultOpen": true,
+                "conceptUuid": "7b8851e3-e97e-4345-aea9-9112ea625c84"
+            }
+        ]
+    },
+    "@openmrs/esm-styleguide": {
+        "Brand color #1": "#0070E7",
+        "Brand color #3": "#017BFC",
+        "Brand color #2": "#005CBF"
+    },
+    "@openmrs/esm-login-app": {
+        "logo": {
+            "src": "/openmrs/spa/login-icon.svg"
+        }
+    },
+    "@openmrs/esm-primary-navigation-app": {
+        "logo": {
+            "src": "/openmrs/spa/primary-navigation.png"
+        }
+    },
+    "@openmrs/esm-patient-chart-app": {
+        "logo": {
+            "src": "/openmrs/spa/primary-navigation.png"
+        }
+    }
+}
